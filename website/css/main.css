@@ -1,0 +1,32 @@
+h1 {
+    text-shadow: 2px 1px 0px rgba(0, 0, 0, 0.1); /* Тень текста */
+    color: #8c4ce4;
+    font-size: 54pt;
+    font-family: 'Sleepyhollow3', sans-serif;
+    font-weight: normal;
+    background: linear-gradient(180deg, #c34cbb, #8c4ce4); /* Градиент */
+    -webkit-background-clip: text; /* Обрезка фона по форме текста */
+    -webkit-text-fill-color: transparent; /* Прозрачный цвет текста */
+    
+
+}
+
+@font-face {
+    font-family: 'Sleepyhollow3';
+    src: url('../fonts/SleepyHollow3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'Sleepyhollow3', sans-serif;
+    background-color: #141414;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+header {
+    background-color: #353535;
+}
