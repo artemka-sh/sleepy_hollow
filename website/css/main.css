@@ -20,7 +20,6 @@
 }
 
 .body {
-    font-family: 'Sleepyhollow3', sans-serif;
     background-color: #141414;
     color: #ffffff;
     text-align: center;
@@ -67,6 +66,14 @@ h2 {
     color: #8c4ce4;
 }
 
+.social_networks {
+    font-family: 'Sleepyhollow3', sans-serif;
+    list-style-type: none;
+    padding: 0; /* Убирает отступы */
+    margin: 0 20%; 
+    text-align: left;
+    font-size: 72pt;
+}
 .info, .resources, .contact {
     margin: 20px 0;
     padding: 20px;
