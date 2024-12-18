@@ -1,29 +1,62 @@
+@font-face {
+    font-family: 'Sleepyhollow3'; 
+    src: url('../fonts/SleepyHollow3.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal; 
+}
+
+@media (max-width: 1280px) {
+    .logo_text{
+        font-size: 100pt;
+    }
+    body {
+        padding: 20px;
+    };
+}
+
+@media (max-width: 768px) {
+    .logo_text{
+        font-size: 72pt;
+    }
+    body {
+        padding: 5px;
+    };
+}
+
 body {
     font-family: 'Sleepyhollow3', sans-serif;
     background-color: #141414;
     color: #333;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
     max-width: 1200px; /* Ограничение ширины */
     margin: 0 auto; /* Центрирование */
 }
 
 header {
     background-image: url('../images/titleheader.png');
-    background-position: center;
+    background-position: left;
     background-size: cover;
     text-align: left;
-    padding: 20px 50px;
+    padding: 20px;
 }
 
 .logo {
+    min-width: max-content;
     text-shadow: 2px 1px 0px rgba(0, 0, 0, 0.1);
     color: #8c4ce4;
-    font-size: 54pt;
+    font-size: 128pt;
     font-family: 'Sleepyhollow3', sans-serif;
     background: linear-gradient(180deg, #c34cbb, #8c4ce4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
+}
+
+.logo_text
+{
+    padding-left: 20px;
+    padding-right: 1ch;
 }
 
 a {
