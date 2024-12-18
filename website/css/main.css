@@ -7,28 +7,24 @@
 
 @media (max-width: 1280px) {
     .logo_text{
-        font-size: 100pt;
+        font-size: 128pt;
     }
-    body {
-        padding: 20px;
-    };
+
 }
 
 @media (max-width: 768px) {
     .logo_text{
-        font-size: 72pt;
+        font-size: 100pt;
     }
-    body {
-        padding: 5px;
-    };
+
 }
 
-body {
+.body {
     font-family: 'Sleepyhollow3', sans-serif;
     background-color: #141414;
-    color: #333;
+    color: #ffffff;
     text-align: center;
-    padding: 20px;
+    padding: 5px;
     max-width: 1200px; /* Ограничение ширины */
     margin: 0 auto; /* Центрирование */
 }
@@ -37,26 +33,29 @@ header {
     background-image: url('../images/titleheader.png');
     background-position: left;
     background-size: cover;
-    text-align: left;
-    padding: 20px;
+    text-align: right;
+    align-items: center;
+    height: min-content;
 }
 
 .logo {
     min-width: max-content;
     text-shadow: 2px 1px 0px rgba(0, 0, 0, 0.1);
     color: #8c4ce4;
-    font-size: 128pt;
+    font-size: 200pt;
     font-family: 'Sleepyhollow3', sans-serif;
-    background: linear-gradient(180deg, #c34cbb, #8c4ce4);
+    background: linear-gradient(180deg, #000000, #512b86, #8c4ce4, #8c4ce4, #c34cbb);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
-}
+    background-clip:text;
+    height: 250px;
+    align-items: flex-start;
+}   
 
 .logo_text
 {
-    padding-left: 20px;
-    padding-right: 1ch;
+    padding-left: 10px;
+    padding-right: 20px;
 }
 
 a {
