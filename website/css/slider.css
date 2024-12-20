@@ -1,6 +1,6 @@
 .slide-content {
     display: flex; /* Используем Flexbox для выравнивания */
-    margin: 10%; /* Убираем лишние отступы */
+    margin: 5%; /* Убираем лишние отступы */
     height: 400px;
 }
 
@@ -8,6 +8,8 @@
     flex-grow: 1;
     max-width: 45%;
     margin-right: 5%;
+    text-align: left;
+    line-height: 1.5;
 }
 
 .slide-content__wrapper {
@@ -27,4 +29,31 @@
 
 .slide-content__wrapper_image-3 {
     background-image: url('../images/knight.jpg');
+}
+
+@media (max-width: 768px) {
+    .slide-content {
+        flex-direction: column; 
+        height: auto; 
+
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .slide-content__paragraph {
+        max-width: 100%; 
+        width: 100%;
+        text-align: left;
+        margin-bottom: 5%;
+    }
+
+    .slide-content__wrapper {
+        max-width: 100%;
+        width: 100%; 
+        height: 500px; /* Установите фиксированную высоту для изображения */
+        margin: 0 auto; /* Центрируем изображение */
+    }
+    p{
+        margin-right: 5%;
+    }
 }

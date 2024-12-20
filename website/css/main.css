@@ -17,19 +17,6 @@
 }
 
 
-@media (max-width: 1280px) {
-    .logo_text{
-        font-size: 128pt;
-    }
-
-}
-
-@media (max-width: 768px) {
-    .logo_text{
-        font-size: 100pt;
-    }
-
-}
 
 .body {
     background-color: #141414;
@@ -94,6 +81,13 @@ h2 {
     border-radius: 10px;
 }
 
+.presentation{
+    font-family: Montserrat;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 .screenshot {
     max-width: 100%;
     height: auto;
@@ -145,4 +139,18 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+@media (max-width: 1280px) {
+    .logo_text{
+        font-size: 128pt;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .logo_text{
+        font-size: 100pt;
+    }
+
 }
