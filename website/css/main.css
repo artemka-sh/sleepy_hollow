@@ -146,11 +146,27 @@ footer p {
         font-size: 128pt;
     }
 
+    .social_networks {
+        font-size: 85pt;
+    }
+
+    .social_icons{
+        width: 80px;
+    }
+
 }
 
 @media (max-width: 768px) {
     .logo_text{
         font-size: 100pt;
+    }
+
+    .social_networks {
+        font-size: 48pt;
+    }
+
+    .social_icons{
+        width: 64px;
     }
 
 }

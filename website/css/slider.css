@@ -24,7 +24,7 @@
 }
 
 .slide-content__wrapper_image-2 {
-    background-image: url('../images/titleheader.png');
+    background-image: url('../images/grandpa.jpg');
 }
 
 .slide-content__wrapper_image-3 {
@@ -49,9 +49,8 @@
 
     .slide-content__wrapper {
         max-width: 100%;
-        width: 100%; 
+        width: 95%; 
         height: 500px; /* Установите фиксированную высоту для изображения */
-        margin: 0 auto; /* Центрируем изображение */
     }
     p{
         margin-right: 5%;
