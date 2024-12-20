@@ -1,0 +1,30 @@
+.slide-content {
+    display: flex; /* Используем Flexbox для выравнивания */
+    margin: 10%; /* Убираем лишние отступы */
+    height: 400px;
+}
+
+.slide-content__paragraph {
+    flex-grow: 1;
+    max-width: 45%;
+    margin-right: 5%;
+}
+
+.slide-content__wrapper {
+    width: 50%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.slide-content__wrapper_image-1 {
+    background-image: url('../images/grandpa.jpg');
+}
+
+.slide-content__wrapper_image-2 {
+    background-image: url('../images/titleheader.png');
+}
+
+.slide-content__wrapper_image-3 {
+    background-image: url('../images/knight.jpg');
+}

@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.montserrat {
+    font-family: "Montserrat", sans-serif; /* Используйте sans-serif вместо serif */
+    font-optical-sizing: auto;
+    font-weight: 400; /* Установите желаемый вес по умолчанию */
+    font-style: normal;
+  }
+  
+
 @font-face {
     font-family: 'Sleepyhollow3'; 
     src: url('../fonts/SleepyHollow3.ttf') format('truetype'); 
     font-weight: normal;
     font-style: normal; 
 }
+
 
 @media (max-width: 1280px) {
     .logo_text{
@@ -75,6 +87,7 @@ h2 {
     font-size: 72pt;
 }
 .info, .resources, .contact {
+    font-family: Montserrat;
     margin: 20px 0;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.1);

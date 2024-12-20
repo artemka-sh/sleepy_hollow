@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sleepy Hollow</title>
     <link rel="stylesheet" href="css/main.css"> 
+    <link rel="stylesheet" href="css/slider.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <script src="js/slider.js"></script>
+    <script src="js/main.js"></script>
     <link rel="icon" href="images/favicon32.png" type="image/png">
 </head>
 <body class="body">
@@ -18,6 +23,54 @@
             <h2>О проекте</h2>
             <p>Добро пожаловать в мир Sleepy Hollow! Здесь вы найдете множество интересных ресурсов и информации о нашем проекте.</p>
             <img src="images/test.jpg" alt="Скриншот проекта" class="screenshot">
+
+
+              <!-- Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <h2>Заголовок</h2>
+                  <div class="slide-content">
+                      
+                      <div class="slide-content__paragraph">Veniam totam alias ipsam autem recusandae vitae, nesciunt quas laudantium aut nostrum iure, animi earum molestiae, quibusdam exercitationem officia illum unde amet.</div>
+                      <div class="slide-content__wrapper slide-content__wrapper_image-1" ></div>
+                
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <h2>Дождь</h2>
+                  <div class="slide-content">
+                      
+                      <p class="slide-content__paragraph">Ratione ex ea tenetur adipisci aliquam temporibus qui, rem esse nam quisquam illo. Ab asperiores, suscipit sit error nemo sapiente exercitationem eaque.</p>
+                      <div class="slide-content__wrapper slide-content__wrapper_image-2"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <h2>Золотой</h2>
+                  <div class="slide-content">
+                      
+                      <p class="slide-content__paragraph">Laborum quis eius inventore maxime natus aliquid sint voluptatibus sed vitae nam sit esse, ducimus recusandae nesciunt, iure delectus necessitatibus quibusdam ullam.</p>
+                      <div class="slide-content__wrapper slide-content__wrapper_image-3"></div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
+              <!-- If we need scrollbar -->
+              <div class="swiper-scrollbar"></div>
+            </div>
+
+
+
+
         </section>
         
         <section class="resources">
@@ -46,7 +99,8 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 Sleepy Hollow. Все права защищены.</p>
+        <p>&copy; 2024 Sleepy Hollow Dayz. Все права защищены.</p>
     </footer>
+
 </body>
 </html>
