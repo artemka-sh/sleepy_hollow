@@ -20,19 +20,19 @@
 }
 
 .slide-content__wrapper_image-1 {
-    background-image: url('../images/tuman.webp');
+    background-image: url('../images/webp/tuman.webp');
 }
 
 .slide-content__wrapper_image-2 {
-    background-image: url('../images/fishlachuga.webp');
+    background-image: url('../images/webp/fishlachuga.webp');
 }
 
 .slide-content__wrapper_image-3 {
-    background-image: url('../images/vedmina_shel.webp');
+    background-image: url('../images/webp/vedmina_shel.webp');
 }
 
 .slide-content__wrapper_image-4 {
-    background-image: url('../images/SleepyBay.webp');
+    background-image: url('../images/webp/SleepyBay.webp');
 }
 
 .slide-content__wrapper_image-5 {
@@ -40,7 +40,7 @@
 }
 
 .slide-content__wrapper_image-6 {
-    background-image: url('../images/torgsquare.webp');
+    background-image: url('../images/webp/torgsquare.webp');
 }
 @media (max-width: 768px) {
     .slide-content {
