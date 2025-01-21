@@ -1,2 +1,2 @@
 # [sleepy_hollow](https://discord.gg/6mBwEKxRwC)
-jopa
+Сделать фон как в стиме с логотипом, расплывающуюся на фоне
