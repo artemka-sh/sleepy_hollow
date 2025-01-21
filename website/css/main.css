@@ -16,6 +16,23 @@
     font-style: normal; 
 }
 
+details {
+    width: 100%;
+    position: relative;
+}
+
+
+details::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "На восточном берегу Гудзона, в глубине одной из бухт...";
+    display: inline-block;
+    background-color: #2c2c2c;
+    opacity: 1;
+    pointer-events: none;
+}
+
 
 
 .body {
@@ -26,6 +43,13 @@
     max-width: 1200px; /* Ограничение ширины */
     margin: 0 auto; /* Центрирование */
 }
+
+.vvodnaya {
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify; 
+}
+
 
 header {
     background-image: url('../images/titleheader.png');
@@ -153,6 +177,10 @@ footer p {
     .social_icons{
         width: 80px;
     }
+    .vvodnaya {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 
 }
 
@@ -168,5 +196,7 @@ footer p {
     .social_icons{
         width: 64px;
     }
-
+    .vvodnaya {
+        margin: 0%;
+    }
 }

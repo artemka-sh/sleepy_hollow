@@ -20,17 +20,28 @@
 }
 
 .slide-content__wrapper_image-1 {
-    background-image: url('../images/grandpa.jpg');
+    background-image: url('../images/tuman.webp');
 }
 
 .slide-content__wrapper_image-2 {
-    background-image: url('../images/grandpa.jpg');
+    background-image: url('../images/fishlachuga.webp');
 }
 
 .slide-content__wrapper_image-3 {
-    background-image: url('../images/knight.jpg');
+    background-image: url('../images/vedmina_shel.webp');
 }
 
+.slide-content__wrapper_image-4 {
+    background-image: url('../images/SleepyBay.webp');
+}
+
+.slide-content__wrapper_image-5 {
+    /* background-image: url('../images/dreamOrNightmares.webp'); */
+}
+
+.slide-content__wrapper_image-6 {
+    background-image: url('../images/torgsquare.webp');
+}
 @media (max-width: 768px) {
     .slide-content {
         flex-direction: column; 
