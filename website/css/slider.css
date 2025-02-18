@@ -42,6 +42,14 @@
 .slide-content__wrapper_image-6 {
     background-image: url('../images/webp/torgsquare.webp');
 }
+
+@media (max-width: 1280px) {
+    .slide-content__wrapper {
+        max-width: 100%;
+        width: 95%; 
+        height: 500px;
+    }
+}
 @media (max-width: 768px) {
     .slide-content {
         flex-direction: column; 
@@ -61,7 +69,7 @@
     .slide-content__wrapper {
         max-width: 100%;
         width: 95%; 
-        height: 500px; /* Установите фиксированную высоту для изображения */
+        height: 500px;
     }
     p{
         margin-right: 5%;

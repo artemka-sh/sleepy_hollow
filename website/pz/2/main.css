@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    color: aqua;
+}
+
+h2{
+    color: aquamarine;
+}
+.main {
+    width: 80%;
+    max-width: 1400px;
+    background-color: blue;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+.img1 {
+    background: url("img/bit.jpg") 50% / cover no-repeat;
+}
+
+.img2 {
+    background: url("img/PCSYMBOL.gif") 50% / cover no-repeat;
+}
+
+.img3 {
+    background: url("img/TECV.GIF") 50% / cover no-repeat;
+}
+
+.img4 {
+    background: url("img/pc_pissed_off.gif") 50% / cover no-repeat;
+}
+
+.img5 {
+    background: url("img/pc_man.gif") 50% / cover no-repeat;
+}
+
+.textblock1 {
+    background-color: lightgray;
+    border: 2px dashed black;
+    padding: 20px;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.textblock2 {
+    background-color: rgb(0, 252, 55);
+    border: 2px dashed black;
+    padding: 20px;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.textblock1 h3 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.textblock1 .img1 {
+    margin: 20px 0; 
+}
+
+.textblock1 p {
+    margin: 10px 0;
+}
+ 
+.end {
+    text-align: left; /* Выравнивание текста по левому краю */
+    margin-top: 20px; /* Отступ сверху для разделения с другими элементами */
+    width: 100%; /* Убедитесь, что элемент занимает всю ширину */
+}
+
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+}
