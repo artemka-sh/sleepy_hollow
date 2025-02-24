@@ -60,7 +60,7 @@ main{
 	margin: 0px 20px;
 	text-align: center;
 	border: 1px solid black;
-	height: auto;
+	height: 100%;
 }
 
 .hero h3:hover{
