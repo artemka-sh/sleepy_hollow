@@ -3,7 +3,7 @@
 
 <p align="center">
   <!-- ✨ ЗАМЕНИ ССЫЛКУ НИЖЕ НА СВОЮ ОБЛОЖКУ -->
-  <img src="<!-- COVER_URL -->" alt="Обложка книги «Путь в Тени Былого»" width="480">
+  <img src="https://github.com/artemka-sh/sleepy_hollow/blob/main/pvtb/cover.jpg?raw=true" alt="Обложка книги «Путь в Тени Былого»" width="480">
 </p>
 
 > **Открой первые главы — бесплатно.**  
